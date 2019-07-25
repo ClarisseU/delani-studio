@@ -1,16 +1,21 @@
+body {
+    text-align: center;
+}
+
 .sec1 {
     background-image: url("/home/wecode/Documents/moringa-school-projects/delani/img/h_img.jpg");
-    height: 2300px;
-    width: 3000px;
+    background-size: 100% 100%;
+    height: 700px;
+    width: 1400px;
     background-repeat: no-repeat;
 }
 
 .logo {
     float: left;
-    margin: 10.5%;
+    margin: 15.5%;
     width: 30%;
     /* padding: 20px; */
-    margin-left: 30%;
+    margin-left: 33%;
     position: 0px relative;
 }
 
@@ -23,3 +28,11 @@ h1 {
     color: whitesmoke;
     font: roboto;
 }
+
+.img1 {
+    position: 0px relative;
+    margin: 13%;
+    padding: 20px 20px;
+}
+
+.sec2 {}
