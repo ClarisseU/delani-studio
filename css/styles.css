@@ -49,6 +49,13 @@ h1 {
     width: 1400px;
 }
 
+.sec6 {
+    background-image: url("/home/wecode/Documents/moringa-school-projects/delani/img/c_image.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 1400px;
+}
+
 .hsec3 {
     color: whitesmoke;
     font: roboto;
