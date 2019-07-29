@@ -5,6 +5,7 @@
         border: 0px solid;
         margin: 10px;
     }
+    /*section one*/
     
     .sec1 {
         background-image: url("/home/wecode/Documents/moringa-school-projects/delani/img/h_img.jpg");
@@ -14,14 +15,12 @@
         background-repeat: no-repeat;
         padding: 20px;
         margin-left: 12%;
-        /* margin-bottom: 10%; */
     }
+    /* D logo image */
     
     .logo {
-        /* float: left; */
         margin: 15.5%;
         width: 30%;
-        /* padding: 20px; */
         margin-left: 33%;
         position: 0px relative;
     }
@@ -39,51 +38,18 @@
         margin: 13%;
         padding: 20px 20px;
     }
+    /* section 3 */
     
     .sec3 {
         background-image: url("/home/wecode/Documents/moringa-school-projects/delani/img/s_image.jpg");
         background-size: 100% 100%;
         height: 300px;
         width: 1400px;
-        /* padding: 40px;
-        margin: 20%; */
-        /* margin-top: 30px; */
         margin-left: 12%;
     }
     
     .psec3 {
         color: whitesmoke;
-    }
-    
-    .sec4 {
-        margin: 60px;
-        padding: 20px;
-        margin-left: 8%;
-    }
-    
-    .sec5 {
-        /* margin: 60px;
-    padding: 20px; */
-        border: 0px solid;
-        width: 1350px;
-        margin-left: 15%;
-        /* margin-right: 50%; */
-    }
-    
-    .sec6 {
-        background-image: url("/home/wecode/Documents/moringa-school-projects/delani/img/c_image.jpg");
-        background-size: 100% 100%;
-        height: 500px;
-        width: 1400px;
-        border: 0px solid;
-        width: 1350px;
-        margin-left: 15%;
-        color: white;
-    }
-    
-    .sec7 {
-        padding: 15px;
-        margin: 20px;
     }
     
     .hsec3 {
@@ -98,12 +64,38 @@
     .spsec3 {
         color: whitesmoke;
         font: roboto;
-        /* margin: 60px; */
-        /* padding: 40px; */
+    }
+    /* section four */
+    
+    .sec4 {
+        margin: 60px;
+        padding: 20px;
+        margin-left: 8%;
+    }
+    /* section five */
+    
+    .sec5 {
+        border: 0px solid;
+        width: 1350px;
+        margin-left: 15%;
+    }
+    /*the id of the two rows in sec5 */
+    
+    #row2 {
+        padding-top: 40px;
+        margin-left: 30px;
+        margin-right: 20px;
     }
     
+    #row3 {
+        padding-top: 10px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    /* styling the id(english ones) of the photo and 
+    the french ones of the paragraphs */
+    
     #one {
-        /* border: 0px solid; */
         margin: 10px;
         padding: 2px;
         width: 200px;
@@ -111,7 +103,6 @@
     }
     
     #two {
-        /* border: 0px solid; */
         margin: 10px;
         padding: 2px;
         width: 200px;
@@ -119,7 +110,6 @@
     }
     
     #three {
-        /* border: 0px solid; */
         margin: 10px;
         padding: 2px;
         width: 200px;
@@ -127,7 +117,6 @@
     }
     
     #four {
-        /* border: 0px solid; */
         margin: 10px;
         padding: 2px;
         width: 200px;
@@ -135,7 +124,6 @@
     }
     
     #five {
-        /* border: 0px solid; */
         margin: 10px;
         padding: 2px;
         width: 200px;
@@ -143,7 +131,6 @@
     }
     
     #six {
-        /* border: 0px solid; */
         margin: 10px;
         padding: 2px;
         width: 200px;
@@ -166,89 +153,71 @@
         height: 170px;
     }
     
-    .form-control {
-        background: transparent;
-        border-radius: 0px;
-    }
-    
-    #row2 {
-        padding-top: 40px;
-        margin-left: 30px;
-        margin-right: 20px;
-    }
-    
-    #row3 {
-        padding-top: 10px;
-        margin-left: 30px;
-        margin-right: 20px;
-    }
-    
-    #last {
-        margin: 2.5%;
-        margin-left: 38%;
-        /* padding: 0.5%; */
-        /* display: flex;
-        justify-content: center; */
-        /* display: flex;
-        justify-content: space-between; */
-    }
-    
-    #primo {
-        display: none;
-    }
-    
-    #segundo {
-        display: none;
-    }
-    
-    #tertio {
-        display: none;
-    }
-    
     #un {
         position: relative;
         top: -100px;
-        /* left: 10px; */
     }
     
     #deux {
         position: relative;
         top: -100px;
-        /* left: 10px; */
     }
     
     #trois {
         position: relative;
         top: -100px;
-        /* left: 10px; */
     }
     
     #quatre {
         position: relative;
         top: -100px;
-        /* left: 10px; */
     }
     
     #cinq {
         position: relative;
         top: -100px;
-        /* left: 10px; */
     }
     
     #sisi {
         position: relative;
         top: -100px;
-        /* left: 10px; */
     }
     
     #sept {
         position: relative;
         top: -100px;
-        /* left: 10px; */
     }
     
     #huit {
         position: relative;
-        top: -80px;
-        /* left: 10px; */
+        top: -100px;
+    }
+    /* section six */
+    
+    .sec6 {
+        background-image: url("/home/wecode/Documents/moringa-school-projects/delani/img/c_image.jpg");
+        background-size: 100% 100%;
+        height: 500px;
+        width: 1400px;
+        border: 0px solid;
+        width: 1350px;
+        margin-left: 15%;
+        color: white;
+    }
+    
+    .form-control {
+        background: transparent;
+        border-radius: 0px;
+    }
+    /* section 7 */
+    
+    .sec7 {
+        padding: 15px;
+        margin: 20px;
+    }
+    /* social media section */
+    
+    #last {
+        margin: 2.5%;
+        margin-left: 38%;
     }

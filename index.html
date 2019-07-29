@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/jquery-3.4.1.js"></script>
     <title>Delani Studio</title>
 </head>
 
 <body>
     <div class="container-fluid">
+        <!-- welcome section (division 1) -->
         <div class="sec1">
             <div class="logo">
                 <img src="img/logo.png"><br><br><br>
@@ -24,6 +25,7 @@
                 <img src="img/mouse_click.png" class="img1">
             </div>
         </div>
+        <!-- About us section (division 2) -->
         <div class="sec2">
             <h2>ABOUT US</h2>
             <p> When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, interactive and agile<br> Our approach unifies design, development and product management to create exceptionsl
@@ -31,127 +33,130 @@
                 <br> We start each project by understanding your business goals, the user's needs and the product requirements<br> Then we help translate them into effective and elegant solutions.</p>
 
         </div>
+        <!-- Services section (division 3) -->
         <div class="sec3">
             <h2 class="hsec3">SERVICES</h2>
             <p class="psec3">Before we sign a contract or write a line of code our team spend the necessary time needed to understand your product vision<br> The outcome of this scoping session is a proposal or high-level statement work.<br> based on your requirements,
                 we can provide a complete offering or just the peices you need.</p>
 
         </div>
+        <!-- What we do section (division 4) -->
         <div class="sec4">
             <h2>WHAT WE DO</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="img/design_icon.png">
-                    <p>DESIGN</p>
-                    <p id="design">Our design practice offers a full range of services including branding<br> strategy,interaction and visual design and user experience testing. Throughout<br> your project, our designers create and implement visual designs and workflows<br>                        solicit user feedback, and work with you to make sure what gets built is what<br> is needed.</p>
+                <!-- design image -->
+                <div class="col-md-4" id="design">
+                    <img src="img/design_icon.png" id="prem">
+                    <p id="prem">DESIGN</p>
+                    <p id="primo">DESIGN</p>
+                    <p id="primo">Our design practice offers a full range of services including branding<br> strategy,interaction and visual design and user experience testing. Throughout<br> your project, our designers create and implement visual designs and workflows<br>solicit
+                        user feedback, and work with you to make sure what gets built is what<br> is needed.</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="img/dev_icon.png">
-                    <P>DEVELOPMENT</P>
-                    <p>All engineers are fluent in the latest enterprise, mobile and web development<br> technologies. They collaborate with your team to write, test, and improve code on<br> a daily basis, using proven practices such as test-driven development
+
+                <!-- development -->
+                <div class="col-md-4" id="devs">
+                    <img src="img/dev_icon.png" id="sec">
+                    <P id="sec">DEVELOPMENT</P>
+                    <P id=segundo>DEVELOPMENT</P>
+                    <p id="segundo">All engineers are fluent in the latest enterprise, mobile and web development<br> technologies. They collaborate with your team to write, test, and improve code on<br> a daily basis, using proven practices such as test-driven development
                         and pair<br> programming.</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="img/product_icon.png">
-                    <P>PRODUCT MANAGEMENT</P>
-                    <p>Planning and development is iterative. Because we are constantly coding and<br> testing, the products we build are always ready to go live.This iterative process<br> allows for changes as business requirements evolve.</p>
+                <!-- product management image -->
+                <div class="col-md-4" id="prodz">
+                    <img src="img/product_icon.png" id="tert">
+                    <P id="tert">PRODUCT MANAGEMENT</P>
+                    <P id="tertio">PRODUCT MANAGEMENT</P>
+                    <p id="tertio">Planning and development is iterative. Because we are constantly coding and<br> testing, the products we build are always ready to go live.This iterative process<br> allows for changes as business requirements evolve.</p>
+
                 </div>
             </div>
         </div>
+        <!-- portfolio section (division 5), used two rows to differentiate parts -->
         <div class="sec5">
             <h2>PORTFOLIO</h2>
+            <!-- first row -->
             <div class="row" id="row2">
+                <!-- black/first image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work4.jpg" id="one">
+                    <p id="un"><strong>Black portfolio</strong></p>
                 </div>
+                <!-- ontario/second image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work3.jpg" id="two">
+                    <p id="deux"><strong>Ontario Security</strong></p>
                 </div>
+                <!-- orange/ third image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work2.jpg" id="three">
+                    <p id="trois"><strong>Orange Squares</strong></p>
                 </div>
+                <!-- fourth image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work1.jpg" id="four">
+                    <p id="quatre"><strong>Portfolio</strong></p>
                 </div>
             </div>
+            <!-- second row -->
             <div class="row" id="row3">
+                <!-- have a good day/fifth image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work5.jpg" id="five">
+                    <p id="cinq"><strong>Elena's</strong></p>
+
                 </div>
+                <!-- sixth image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work6.jpg" id="six">
+                    <p id="sisi"><strong>Form</strong></p>
                 </div>
+                <!-- seventh image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work7.jpg" id="seven">
+                    <p id="sept"><strong>Burned mock-up</strong></p>
                 </div>
+                <!-- lastly the eighth image -->
                 <div class="col-md-3">
                     <img src="img/portfolio/work8.jpg" id="eight">
+                    <p id="huit"><strong>Giraffe restaurant</strong></p>
                 </div>
             </div>
         </div>
 
-
+        <!-- contact us section (division 6)-->
         <div class="sec6">
             <h2>CONTACT US</h2>
             <form>
+                <!-- first row -->
                 <div class="form-row justify-content-center">
                     <div class="col-md-4">
-                        <input type="text" class="form-control" placeholder="Name...">
+                        <input type="text" id="names" class="form-control" placeholder="Name...">
                     </div>
                     <div class="col-md-4">
                         <input type="email" class="form-control" id="inputEmail4" placeholder="Email...">
                     </div>
 
                 </div>
+                <!-- the second row -->
                 <div class="form-row justify-content-center" style="margin-top:10px">
                     <div class="col-md-8">
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Your words here..."></textarea>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-info" style="margin-top:10px">Submit</button>
+                <button type="submit" class="btn btn-info" style="margin-top:10px" id="suBmit">Submit</button>
             </form>
         </div>
-        <!-- <div class="sec7">
-            <div class="row justify-content-center">
-                <div class="col-md-1" id="id1">
-                    <img src="img/social_icons/twitter.png">
-                </div>
-                <div class="col-md-1" id="id2">
-                    <img src="img/social_icons/dribble.png">
-                </div>
-                <div class="col-md-1" id="id3">
-                    <img src="img/social_icons/facebook.png">
-                </div>
-                <div class="col-md-1" id="id4">
-                    <img src="img/social_icons/g_plus.png">
-                </div>
-                <div class="col-md-1" id="id5">
-                    <img src="img/social_icons/skype.png">
-                </div>
-                <div class="col-md-1" id="id6">
-                    <img src="img/social_icons/stumble_upon.png">
-                </div>
-                <div class="col-md-1" id="id7">
-                    <img src="img/social_icons/behance.png">
-                </div>
-                <div class="col-md-1" id="id8">
-                    <img src="img/social_icons/pinterest.png">
-                </div>
-                <div class="col-md-1" id="id9">
-                    <img src="img/social_icons/flickr.png">
-                </div>
-            </div>
-        </div> -->
+        <!-- social media section -->
         <div class="row" id="last">
-            <img src="img/social_icons/twitter.png">
-            <img src="img/social_icons/dribble.png">
-            <img src="img/social_icons/facebook.png">
-            <img src="img/social_icons/g_plus.png">
-            <img src="img/social_icons/skype.png">
-            <img src="img/social_icons/stumble_upon.png">
-            <img src="img/social_icons/behance.png">
-            <img src="img/social_icons/pinterest.png">
-            <img src="img/social_icons/flickr.png">
+            <a href="https://twitter.com" target="_blank"><img src="img/social_icons/twitter.png"></a>
+            <a href="http://dribble.com/" target="_blank"> <img src="img/social_icons/dribble.png"></a>
+            <a href="https://www.facebook.com/search/top/?q=delani%20studio" target="_blank"><img src="img/social_icons/facebook.png"></a>
+            <a href="gplus.com" target="_blank"><img src="img/social_icons/g_plus.png"></a>
+            <a href="https://www.skype.com/en/" target="_blank"> <img src="img/social_icons/skype.png"></a>
+            <a href="http://stumbleupon.com/" target="_blank"><img src="img/social_icons/stumble_upon.png"></a>
+            <a href="https://www.behance.net/" target="_blank"><img src="img/social_icons/behance.png"></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="img/social_icons/pinterest.png"></a>
+            <a href="https://www.flickr.com/" target="_blank"><img src="img/social_icons/flickr.png"></a>
         </div>
         <p>DELANI STUDIO<br>2019</p>
     </div>
