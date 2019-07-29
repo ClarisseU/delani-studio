@@ -184,6 +184,15 @@
         background: transparent;
         border-radius: 0px;
     }
+    input[type="email"]::placeholder {
+        color: white;
+    }
+    input[type="text"]::placeholder {
+        color: white;
+    }
+    textarea.form-control::placeholder {
+        color: white;
+    }
     /* section 7 */
     .sec7 {
         padding: 15px;
