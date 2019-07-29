@@ -192,3 +192,63 @@
         /* display: flex;
         justify-content: space-between; */
     }
+    
+    #primo {
+        display: none;
+    }
+    
+    #segundo {
+        display: none;
+    }
+    
+    #tertio {
+        display: none;
+    }
+    
+    #un {
+        position: relative;
+        top: -100px;
+        /* left: 10px; */
+    }
+    
+    #deux {
+        position: relative;
+        top: -100px;
+        /* left: 10px; */
+    }
+    
+    #trois {
+        position: relative;
+        top: -100px;
+        /* left: 10px; */
+    }
+    
+    #quatre {
+        position: relative;
+        top: -100px;
+        /* left: 10px; */
+    }
+    
+    #cinq {
+        position: relative;
+        top: -100px;
+        /* left: 10px; */
+    }
+    
+    #sisi {
+        position: relative;
+        top: -100px;
+        /* left: 10px; */
+    }
+    
+    #sept {
+        position: relative;
+        top: -100px;
+        /* left: 10px; */
+    }
+    
+    #huit {
+        position: relative;
+        top: -80px;
+        /* left: 10px; */
+    }
