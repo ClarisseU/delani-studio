@@ -1,249 +1,197 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    background-size: 100% 100%;
-    border: 0px solid;
-    margin: 10px;
-}
-
-
-/*section one*/
-
-.sec1 {
-    background-image: url("../img/h_img.jpg");
-    background-size: 100% 100%;
-    height: 700px;
-    width: 1400px;
-    background-repeat: no-repeat;
-    padding: 20px;
-    margin-left: 12%;
-}
-
-
-/* D logo image */
-
-.logo {
-    margin: 15.5%;
-    width: 30%;
-    margin-left: 33%;
-    position: 0px relative;
-}
-
-h1 {
-    color: whitesmoke;
-}
-
-.yambere {
-    color: whitesmoke;
-}
-
-.img1 {
-    position: 0px relative;
-    margin: 13%;
-    padding: 20px 20px;
-}
-
-
-/* section 3 */
-
-.sec3 {
-    background-image: url("../img/s_image.jpg");
-    background-size: 100% 100%;
-    height: 300px;
-    width: 1400px;
-    margin-left: 12%;
-}
-
-.psec3 {
-    color: whitesmoke;
-}
-
-.hsec3 {
-    color: whitesmoke;
-    font: roboto;
-    margin: 50px;
-    padding: 30px;
-    margin-top: 3%;
-    margin-left: 5%;
-}
-
-.spsec3 {
-    color: whitesmoke;
-    font: roboto;
-}
-
-
-/* section four */
-
-.sec4 {
-    margin: 60px;
-    padding: 20px;
-    margin-left: 8%;
-}
-
-#segundo,
-#primo,
-#tertio {
-    display: none;
-}
-
-
-/* section five */
-
-.sec5 {
-    border: 0px solid;
-    width: 1350px;
-    margin-left: 15%;
-}
-
-
-/*the id of the two rows in sec5 */
-
-#row2 {
-    padding-top: 40px;
-    margin-left: 30px;
-    margin-right: 20px;
-}
-
-#row3 {
-    padding-top: 10px;
-    margin-left: 30px;
-    margin-right: 20px;
-}
-
-
-/* styling the id(english ones) of the photo and 
+@media only screen {
+    body {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        background-size: 100% 100%;
+        border: 0px solid;
+        margin: 10px;
+    }
+    /*section one*/
+    .sec1 {
+        background-image: url("../img/h_img.jpg");
+        background-size: 100% 100%;
+        height: 700px;
+        width: 1400px;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin-left: 12%;
+    }
+    /* D logo image */
+    .logo {
+        margin: 15.5%;
+        width: 30%;
+        margin-left: 33%;
+        position: 0px relative;
+    }
+    h1 {
+        color: whitesmoke;
+    }
+    .yambere {
+        color: whitesmoke;
+    }
+    .img1 {
+        position: 0px relative;
+        margin: 13%;
+        padding: 20px 20px;
+    }
+    /* section 3 */
+    .sec3 {
+        background-image: url("../img/s_image.jpg");
+        background-size: 100% 100%;
+        height: 300px;
+        width: 1400px;
+        margin-left: 12%;
+    }
+    .psec3 {
+        color: whitesmoke;
+    }
+    .hsec3 {
+        color: whitesmoke;
+        font: roboto;
+        margin: 50px;
+        padding: 30px;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .spsec3 {
+        color: whitesmoke;
+        font: roboto;
+    }
+    /* section four */
+    .sec4 {
+        margin: 60px;
+        padding: 20px;
+        margin-left: 8%;
+    }
+    #segundo,
+    #primo,
+    #tertio {
+        display: none;
+    }
+    /* section five */
+    .sec5 {
+        border: 0px solid;
+        width: 1350px;
+        margin-left: 15%;
+    }
+    /*the id of the two rows in sec5 */
+    #row2 {
+        padding-top: 40px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    #row3 {
+        padding-top: 10px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    /* styling the id(english ones) of the photo and 
     the french ones of the paragraphs */
-
-#one {
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#two {
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#three {
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#four {
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#five {
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#six {
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#seven {
-    border: 0px solid;
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#eight {
-    border: 0px solid;
-    margin: 10px;
-    padding: 2px;
-    width: 200px;
-    height: 170px;
-}
-
-#un {
-    position: relative;
-    top: -100px;
-}
-
-#deux {
-    position: relative;
-    top: -100px;
-}
-
-#trois {
-    position: relative;
-    top: -100px;
-}
-
-#quatre {
-    position: relative;
-    top: -100px;
-}
-
-#cinq {
-    position: relative;
-    top: -100px;
-}
-
-#sisi {
-    position: relative;
-    top: -100px;
-}
-
-#sept {
-    position: relative;
-    top: -100px;
-}
-
-#huit {
-    position: relative;
-    top: -100px;
-}
-
-
-/* section six */
-
-.sec6 {
-    background-image: url("../img/c_image.jpg");
-    background-size: 100% 100%;
-    height: 500px;
-    width: 1400px;
-    border: 0px solid;
-    width: 1350px;
-    margin-left: 15%;
-    color: white;
-}
-
-.form-control {
-    background: transparent;
-    border-radius: 0px;
-}
-
-
-/* section 7 */
-
-.sec7 {
-    padding: 15px;
-    margin: 20px;
-}
-
-
-/* social media section */
-
-#last {
-    margin: 2.5%;
-    margin-left: 38%;
+    #one {
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #two {
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #three {
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #four {
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #five {
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #six {
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #seven {
+        border: 0px solid;
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #eight {
+        border: 0px solid;
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 170px;
+    }
+    #un {
+        position: relative;
+        top: -100px;
+    }
+    #deux {
+        position: relative;
+        top: -100px;
+    }
+    #trois {
+        position: relative;
+        top: -100px;
+    }
+    #quatre {
+        position: relative;
+        top: -100px;
+    }
+    #cinq {
+        position: relative;
+        top: -100px;
+    }
+    #sisi {
+        position: relative;
+        top: -100px;
+    }
+    #sept {
+        position: relative;
+        top: -100px;
+    }
+    #huit {
+        position: relative;
+        top: -100px;
+    }
+    /* section six */
+    .sec6 {
+        background-image: url("../img/c_image.jpg");
+        background-size: 100% 100%;
+        height: 500px;
+        width: 1400px;
+        border: 0px solid;
+        width: 1350px;
+        margin-left: 15%;
+        color: white;
+    }
+    .form-control {
+        background: transparent;
+        border-radius: 0px;
+    }
+    /* section 7 */
+    .sec7 {
+        padding: 15px;
+        margin: 20px;
+    }
+    /* social media section */
+    #last {
+        margin: 2.5%;
+        margin-left: 38%;
+    }
 }
