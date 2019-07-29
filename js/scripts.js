@@ -130,6 +130,9 @@ $(document).ready(function() {
             alert(yourName + " we have received your message. Thank you fro reaching out to us.");
         }
         souMettre.preventDefault();
+        $("#names").val("");
+        $("#inputEmail4").val("");
+        $("#exampleFormControlTextarea1").val("");
     })
 
 });
